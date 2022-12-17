@@ -7,6 +7,7 @@ import 'coding.dart';
 import 'knowledges.dart';
 import 'my_info.dart';
 import 'skills.dart';
+import 'dart:js' as js;
 
 class SideMenu extends StatelessWidget {
   const SideMenu({
@@ -27,15 +28,15 @@ class SideMenu extends StatelessWidget {
                   children: [
                     AreaInfoText(
                       title: "Residence",
-                      text: "Bangladesg",
-                    ),
-                    AreaInfoText(
-                      title: "City",
-                      text: "Dhaka",
+                      text: "Cuenca, Ecuador",
                     ),
                     AreaInfoText(
                       title: "Age",
-                      text: "22",
+                      text: "32",
+                    ),
+                    AreaInfoText(
+                      title: "e-mail",
+                      text: "alexminga.a@gmail.com",
                     ),
                     Skills(),
                     SizedBox(height: defaultPadding),
@@ -43,7 +44,7 @@ class SideMenu extends StatelessWidget {
                     Knowledges(),
                     Divider(),
                     SizedBox(height: defaultPadding / 2),
-                    TextButton(
+                   /* TextButton(
                       onPressed: () {},
                       child: FittedBox(
                         child: Row(
@@ -62,7 +63,7 @@ class SideMenu extends StatelessWidget {
                           ],
                         ),
                       ),
-                    ),
+                    ),*/
                     Container(
                       margin: EdgeInsets.only(top: defaultPadding),
                       color: Color(0xFF24242E),
@@ -70,15 +71,21 @@ class SideMenu extends StatelessWidget {
                         children: [
                           Spacer(),
                           IconButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              js.context.callMethod('open', ['https://www.linkedin.com/in/alex-v-minga/']);
+                            },
                             icon: SvgPicture.asset("assets/icons/linkedin.svg"),
                           ),
                           IconButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              js.context.callMethod('open', ['https://github.com/alexVma']);
+                            },
                             icon: SvgPicture.asset("assets/icons/github.svg"),
                           ),
                           IconButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              js.context.callMethod('open', ['https://twitter.com/AlexMinga39']);
+                            },
                             icon: SvgPicture.asset("assets/icons/twitter.svg"),
                           ),
                           Spacer(),

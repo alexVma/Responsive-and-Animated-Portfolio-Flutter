@@ -22,10 +22,10 @@ class Knowledges extends StatelessWidget {
             style: Theme.of(context).textTheme.subtitle2,
           ),
         ),
-        KnowledgeText(text: "Flutter, Dart"),
-        KnowledgeText(text: "Stylus, Sass, Less"),
-        KnowledgeText(text: "Gulp, Webpack, Grunt"),
-        KnowledgeText(text: "GIT Knowledge"),
+        KnowledgeText(text: "Sass, UX/UI"),
+        KnowledgeText(text: "Jetpack, SwiftUI"),
+        KnowledgeText(text: "Angular, React native"),
+        KnowledgeText(text: "GIT, Spring boot, JPA"),
       ],
     );
   }

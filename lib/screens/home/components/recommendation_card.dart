@@ -14,7 +14,7 @@ class RecommendationCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 400,
+      width: 350,
       padding: EdgeInsets.all(defaultPadding),
       color: secondaryColor,
       child: Column(
@@ -28,9 +28,10 @@ class RecommendationCard extends StatelessWidget {
           const SizedBox(height: defaultPadding),
           Text(
             recommendation.text!,
-            maxLines: 4,
-            overflow: TextOverflow.ellipsis,
-            style: TextStyle(height: 1.5),
+           // maxLines: 10,
+            overflow: TextOverflow.visible,
+            style: TextStyle(height: 1.5,),
+            textAlign: TextAlign.justify,
           )
         ],
       ),

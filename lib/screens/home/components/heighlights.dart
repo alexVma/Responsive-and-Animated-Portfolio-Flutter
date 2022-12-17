@@ -63,32 +63,26 @@ class HighLightsInfo extends StatelessWidget {
               children: [
                 HeighLight(
                   counter: AnimatedCounter(
-                    value: 119,
-                    text: "K+",
+                    value: 8,
+                    text: "+Y",
                   ),
-                  label: "Subscribers",
+                  label: "Dev Experience",
                 ),
                 HeighLight(
                   counter: AnimatedCounter(
-                    value: 40,
+                    value: 5,
+                    text: "+Y",
+                  ),
+                  label: "Mobile Experience",
+                ),
+                HeighLight(
+                  counter: AnimatedCounter(
+                    value: 10,
                     text: "+",
                   ),
-                  label: "Videos",
+                  label: "Completed projects",
                 ),
-                HeighLight(
-                  counter: AnimatedCounter(
-                    value: 30,
-                    text: "+",
-                  ),
-                  label: "GitHub Projects",
-                ),
-                HeighLight(
-                  counter: AnimatedCounter(
-                    value: 13,
-                    text: "K+",
-                  ),
-                  label: "Stars",
-                ),
+
               ],
             ),
     );

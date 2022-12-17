@@ -28,7 +28,7 @@ class HomeBanner extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  "Discover my Amazing \nArt Space!",
+                  "Welcome to know my \ndeveloper experience!",
                   style: Responsive.isDesktop(context)
                       ? Theme.of(context).textTheme.headline3!.copyWith(
                             fontWeight: FontWeight.bold,
@@ -43,7 +43,7 @@ class HomeBanner extends StatelessWidget {
                   const SizedBox(height: defaultPadding / 2),
                 MyBuildAnimatedText(),
                 SizedBox(height: defaultPadding),
-                if (!Responsive.isMobileLarge(context))
+                /*if (!Responsive.isMobileLarge(context))
                   ElevatedButton(
                     onPressed: () {},
                     style: TextButton.styleFrom(
@@ -56,7 +56,7 @@ class HomeBanner extends StatelessWidget {
                       "EXPLORE NOW",
                       style: TextStyle(color: darkColor),
                     ),
-                  ),
+                  ),*/
               ],
             ),
           )
@@ -82,7 +82,7 @@ class MyBuildAnimatedText extends StatelessWidget {
           if (!Responsive.isMobileLarge(context)) FlutterCodedText(),
           if (!Responsive.isMobileLarge(context))
             SizedBox(width: defaultPadding / 2),
-          Text("I build "),
+          Text("I build, "),
           Responsive.isMobile(context)
               ? Expanded(child: AnimatedText())
               : AnimatedText(),
@@ -105,16 +105,20 @@ class AnimatedText extends StatelessWidget {
     return AnimatedTextKit(
       animatedTexts: [
         TyperAnimatedText(
-          "responsive web and mobile app.",
-          speed: Duration(milliseconds: 60),
+          "a real time vehicle tracking app.",
+          speed: Duration(milliseconds: 70),
         ),
         TyperAnimatedText(
-          "complete e-Commerce app UI.",
-          speed: Duration(milliseconds: 60),
+          "a public transport route finder app",
+          speed: Duration(milliseconds: 70),
         ),
         TyperAnimatedText(
-          "Chat app with dark and light theme.",
-          speed: Duration(milliseconds: 60),
+          "app for online sales of medicines",
+          speed: Duration(milliseconds: 70),
+        ),
+        TyperAnimatedText(
+          "live video chat app",
+          speed: Duration(milliseconds: 70),
         ),
       ],
     );
