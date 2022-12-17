@@ -61618,7 +61618,7 @@ G(a){var s=null
 return new A.db(B.mo,A.fI(A.a([A.a4t("assets/icons/check.svg"),A.dI(s,s,10),A.cn(this.c,s,s,s,s,s)],t.p),B.K,B.H,B.a7),s)}}
 A.Fr.prototype={
 G(a){var s=null
-return new A.oo(1.23,A.eA(s,A.ez(A.a([new A.iv(2,s),new A.BG(new A.op("assets/images/IMG_7344.jpg",s,s),80,s),new A.iv(1,s),A.cn("Alex V. Minga",s,s,A.as(a).RG.x,s,s),A.cn("Mobile Developer",s,s,A.el(s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.bQ,s,1.5,!0,s,s,s,s,s,s,s,s),B.ku,s),new A.iv(2,s)],t.p),B.K,B.H),B.o,new A.k(4280558640),s,s,s,s,s,s,s,s,s),s)}}
+return new A.oo(1.23,A.eA(s,A.ez(A.a([new A.iv(2,s),new A.BG(new A.op("assets/images/IMG_7344.JPG",s,s),80,s),new A.iv(1,s),A.cn("Alex V. Minga",s,s,A.as(a).RG.x,s,s),A.cn("Mobile Developer",s,s,A.el(s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.bQ,s,1.5,!0,s,s,s,s,s,s,s,s),B.ku,s),new A.iv(2,s)],t.p),B.K,B.H),B.o,new A.k(4280558640),s,s,s,s,s,s,s,s,s),s)}}
 A.xc.prototype={
 G(a){var s=null,r=t.p
 return new A.Dy(A.aiW(!0,A.ez(A.a([new A.Fr(s),A.mg(A.aew(A.ez(A.a([new A.om("Residence","Cuenca, Ecuador",s),new A.om("Age","32",s),new A.om("e-mail","alexminga.a@gmail.com",s),new A.Ij(s),A.dI(s,20,s),new A.Cq(s),new A.ET(s),A.T5(),A.dI(s,10,s),A.eA(s,A.fI(A.a([new A.iv(1,s),A.EC(s,A.a4t("assets/icons/linkedin.svg"),s,new A.a23(),s),A.EC(s,A.a4t("assets/icons/github.svg"),s,new A.a24(),s),A.EC(s,A.a4t("assets/icons/twitter.svg"),s,new A.a25(),s),new A.iv(1,s)],r),B.K,B.H,B.a7),B.o,new A.k(4280558638),s,s,s,s,new A.aR(0,20,0,0),s,s,s,s)],r),B.K,B.H),new A.aR(20,20,20,20),B.aK),1)],r),B.K,B.H),!0),s)}}
