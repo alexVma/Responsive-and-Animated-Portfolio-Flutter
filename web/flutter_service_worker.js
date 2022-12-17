@@ -27,8 +27,8 @@ const RESOURCES = {
 "assets/assets/icons/check.svg": "4220c82511cc1dfb40b8bba7d25c5f55",
 "assets/assets/icons/twitter.svg": "a4a0163fef48a4247a305528c07bc4fa",
 "assets/NOTICES": "77c3d1c0680470723854325637fc9a7b",
-"index.html": "be055f5194edcc43661daeadffec2b1e",
-"/": "be055f5194edcc43661daeadffec2b1e",
+"index.html": "8467a7bb642b2196508d4ec1f239ca44",
+"/": "8467a7bb642b2196508d4ec1f239ca44",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "version.json": "1ac57eb0214a8f5216f1da7dd479b33f"
 };
